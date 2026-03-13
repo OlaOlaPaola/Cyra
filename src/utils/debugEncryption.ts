@@ -18,12 +18,13 @@ export function logEncryptionData(input: EncryptionInput): void {
   console.log('👤 User ID:', input.userId);
   
   console.group('📊 User Data:');
-  console.log('  • Cycle Day:', input.userData.cycleDay);
-  console.log('  • Tasks:', input.userData.tasks?.length || 0, 'tareas');
+  const ud = input.userData as any;
+  console.log('  • Cycle Day:', ud.cycleDay);
+  console.log('  • Tasks:', ud.tasks?.length || 0, 'tareas');
   
-  if (input.userData.tasks && input.userData.tasks.length > 0) {
+  if (ud.tasks && ud.tasks.length > 0) {
     console.group('  📝 Detalle de Tareas:');
-    input.userData.tasks.forEach((task, index) => {
+    ud.tasks.forEach((task: any, index: number) => {
       console.log(`    ${index + 1}. ${task.title || '(Sin título)'}`, {
         category: task.category,
         duration: task.duration,
