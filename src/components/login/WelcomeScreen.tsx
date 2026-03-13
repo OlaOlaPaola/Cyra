@@ -76,9 +76,9 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
     <div className={styles.screen}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <img src="/cyra-logo.png" alt="Cyra Logo" className={styles.logoImage} />
+          <img src="/cyra-logo.png" alt="Plan4HER Logo" className={styles.logoImage} />
         </div>
-        <h1 className={styles.title}>Welcome to Cyra!</h1>
+        <h1 className={styles.title}>Welcome to Plan4HER!</h1>
       </div>
 
       <div className={styles.mainContent}>
