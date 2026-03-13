@@ -137,7 +137,7 @@ const Setup = () => {
         <div className={styles.connectToolsCard}>
           <h3 className={styles.connectToolsTitle}>Connect your tools</h3>
           <p className={styles.connectToolsSubtitle}>
-            Soon, CYRA will sync with your favorite planners so all your commitments live in one cycle-aware view.
+            Soon, Plan4HER will sync with your favorite planners so all your commitments live in one cycle-aware view.
           </p>
           <div className={styles.integrationsList}>
             <div className={styles.integrationItem}>

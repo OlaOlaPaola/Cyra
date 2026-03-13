@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cyra-v1';
+const CACHE_NAME = 'plan4her-v1';
 const urlsToCache = [
   '/',
   '/index.html',

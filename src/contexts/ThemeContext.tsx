@@ -11,7 +11,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('cyra-theme');
+    const savedTheme = localStorage.getItem('plan4her-theme');
     if (savedTheme === 'dark') {
       setIsDark(true);
       document.documentElement.classList.add('dark');
@@ -23,10 +23,10 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
       const newValue = !prev;
       if (newValue) {
         document.documentElement.classList.add('dark');
-        localStorage.setItem('cyra-theme', 'dark');
+        localStorage.setItem('plan4her-theme', 'dark');
       } else {
         document.documentElement.classList.remove('dark');
-        localStorage.setItem('cyra-theme', 'light');
+        localStorage.setItem('plan4her-theme', 'light');
       }
       return newValue;
     });

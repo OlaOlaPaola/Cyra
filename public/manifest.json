@@ -1,6 +1,6 @@
 {
-  "name": "CYRA",
-  "short_name": "CYRA",
+  "name": "Plan4HER",
+  "short_name": "Plan4HER",
   "description": "Productivity app for women organized by menstrual cycle",
   "start_url": "/",
   "display": "standalone",

@@ -59,8 +59,8 @@ export const wagmiConfig = createConfig({
   },
 });
 
-// Placeholder hook for CYRA contract interactions
-export const useCyraContract = () => {
+// Placeholder hook for Plan4HER contract interactions
+export const usePlan4HERContract = () => {
   // This will be replaced with actual contract logic later
   const mockRead = async () => {
     console.log('Mock contract read');

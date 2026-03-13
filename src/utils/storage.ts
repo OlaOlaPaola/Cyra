@@ -1,6 +1,6 @@
 import { UserData } from '../types';
 
-const STORAGE_KEY = 'cyra-user-data';
+const STORAGE_KEY = 'plan4her-user-data';
 
 export const saveUserData = (data: UserData): void => {
   try {

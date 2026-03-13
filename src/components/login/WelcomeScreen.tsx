@@ -76,9 +76,9 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
     <div className={styles.screen}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <img src="/cyra-logo.png" alt="Cyra Logo" className={styles.logoImage} />
+          <img src="/cyra-logo.png" alt="Plan4HER Logo" className={styles.logoImage} />
         </div>
-        <h1 className={styles.title}>Welcome to Cyra!</h1>
+        <h1 className={styles.title}>Welcome to Plan4HER!</h1>
       </div>
 
       <div className={styles.mainContent}>
@@ -86,7 +86,7 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
           <div className={styles.illustrationBg}>
             <div className={styles.plan4herText}>
               <span className={styles.planText}>PLAN</span>
-              <span className={styles.forherText}>CYRA</span>
+              <span className={styles.forherText}>4HER</span>
             </div>
             <div className={styles.decorativeElements}>
               <div className={`${styles.shell} ${styles.shell1}`}></div>
@@ -98,7 +98,7 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
 
         <div className={styles.description}>
           <p>
-            Plan your life in sync with your cycle. With AI, Cyra helps you organize tasks and routines in harmony with your hormonal cycle, so you can work, rest, and live at your best.
+            Plan your life in sync with your cycle. With AI, Plan4HER helps you organize tasks and routines in harmony with your hormonal cycle, so you can work, rest, and live at your best.
           </p>
         </div>
 
