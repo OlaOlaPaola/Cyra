@@ -291,7 +291,7 @@ const WeeklySchedule = () => {
                 <div className={styles.infoCardContent}>
                   <div className={styles.infoCardLabel}>Fase del ciclo</div>
                   <div className={styles.infoCardValue}>
-                    {selectedTask.cyclePhase || selectedTask.phase || 'N/A'}
+                    {selectedTask.cyclePhase || 'N/A'}
                   </div>
                 </div>
               </div>
