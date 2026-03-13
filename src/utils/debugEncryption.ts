@@ -35,10 +35,10 @@ export function logEncryptionData(input: EncryptionInput): void {
     console.groupEnd();
   }
   
-  console.log('  • Schedule:', input.userData.schedule?.length || 0, 'eventos programados');
-  if (input.userData.schedule && input.userData.schedule.length > 0) {
+  console.log('  • Schedule:', ud.schedule?.length || 0, 'eventos programados');
+  if (ud.schedule && ud.schedule.length > 0) {
     console.group('  📅 Detalle del Schedule:');
-    input.userData.schedule.forEach((scheduled, index) => {
+    ud.schedule.forEach((scheduled: any, index: number) => {
       console.log(`    ${index + 1}. ${scheduled.title}`, {
         date: scheduled.date,
         time: `${scheduled.startTime} - ${scheduled.endTime}`,
