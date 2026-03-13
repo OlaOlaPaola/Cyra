@@ -28,7 +28,7 @@ export const privyConfig = {
     appearance: {
       theme: 'light',
       accentColor: '#16697A',
-      logo: '/cyra-logo.png',
+      logo: '/cyra-logo.png', // Plan4HER logo
     },
     
     // Configuración legal (requerida para producción)

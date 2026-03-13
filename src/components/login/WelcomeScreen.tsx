@@ -98,7 +98,7 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
 
         <div className={styles.description}>
           <p>
-            Plan your life in sync with your cycle. With AI, Cyra helps you organize tasks and routines in harmony with your hormonal cycle, so you can work, rest, and live at your best.
+            Plan your life in sync with your cycle. With AI, Plan4HER helps you organize tasks and routines in harmony with your hormonal cycle, so you can work, rest, and live at your best.
           </p>
         </div>
 

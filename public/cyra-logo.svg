@@ -2,7 +2,7 @@
   <!-- Círculo beige -->
   <circle cx="100" cy="100" r="90" fill="#EBE8DE"/>
   
-  <!-- Texto "cyra" en azul claro con estilo de pincel -->
-  <text x="100" y="130" font-family="Georgia, serif" font-size="65" font-weight="normal" fill="#80C8D9" text-anchor="middle" style="font-style: italic; letter-spacing: 1px; font-variant: normal;">cyra</text>
+  <!-- Texto "Plan4HER" en azul claro con estilo de pincel -->
+  <text x="100" y="125" font-family="Georgia, serif" font-size="38" font-weight="normal" fill="#80C8D9" text-anchor="middle" style="font-style: italic; letter-spacing: 1px;">Plan4HER</text>
 </svg>
 
