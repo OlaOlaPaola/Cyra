@@ -311,7 +311,6 @@ const WeeklySchedule = () => {
                       {getEnergyType(selectedTask) === 'deep-work' ? 'Alta' :
                        getEnergyType(selectedTask) === 'rest' ? 'Baja' : 'Media'}
                     </span>
-                    </span>
                   </div>
                 </div>
               </div>
