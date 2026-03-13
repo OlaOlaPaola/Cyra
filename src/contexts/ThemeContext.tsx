@@ -26,7 +26,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
         localStorage.setItem('plan4her-theme', 'dark');
       } else {
         document.documentElement.classList.remove('dark');
-        localStorage.setItem('cyra-theme', 'light');
+        localStorage.setItem('plan4her-theme', 'light');
       }
       return newValue;
     });
