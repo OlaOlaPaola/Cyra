@@ -40,7 +40,7 @@ ${task.isFixed && task.date ? `- Fecha: ${task.date}` : ''}
 ${task.isFixed && task.startTime ? `- Hora de inicio: ${task.startTime}` : ''}
 ${task.isFixed && task.endTime ? `- Hora de fin: ${task.endTime}` : ''}
 ${!task.isFixed && task.deadline ? `- Fecha límite: ${task.deadline}` : ''}
-${task.repeatsWeekly ? '- Se repite semanalmente' : ''}
+${task.repeatFrequency && task.repeatFrequency !== 'none' ? `- Se repite: ${task.repeatFrequency}` : ''}
 ${task.isProject ? '- Es un proyecto' : ''}
 
 Esta tarea debe ser considerada al generar el horario optimizado para el ciclo menstrual del usuario.`;

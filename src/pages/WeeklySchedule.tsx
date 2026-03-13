@@ -308,7 +308,7 @@ const WeeklySchedule = () => {
                      getEnergyType(selectedTask) === 'admin' ? 'Administrativo' :
                      getEnergyType(selectedTask) === 'social' ? 'Social' : 'Descanso'}
                     <span className={styles.energyLevelBadge}>
-                      {selectedTask.energyLevel || 
+                      {(getEnergyType(selectedTask) === 'deep-work' ? 'Alta' : 
                         (getEnergyType(selectedTask) === 'deep-work' ? 'Alta' :
                          getEnergyType(selectedTask) === 'rest' ? 'Baja' : 'Media')}
                     </span>

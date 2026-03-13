@@ -43,7 +43,7 @@ const TestEncryption = () => {
         isFixed: false,
         duration: '01:30',
         deadline: '2024-01-20',
-        repeatsWeekly: true,
+        repeatFrequency: 'weekly',
         isProject: true,
       },
     ],
