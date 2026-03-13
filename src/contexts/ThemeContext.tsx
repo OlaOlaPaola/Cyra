@@ -11,7 +11,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('cyra-theme');
+    const savedTheme = localStorage.getItem('plan4her-theme');
     if (savedTheme === 'dark') {
       setIsDark(true);
       document.documentElement.classList.add('dark');
