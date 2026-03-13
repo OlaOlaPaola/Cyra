@@ -7,7 +7,7 @@
 
 export interface EncryptionInput {
   userId: string;
-  userData: Record<string, unknown>;
+  userData: Record<string, unknown> | { [key: string]: unknown };
   aiPrompt: string;
 }
 

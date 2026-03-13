@@ -35,7 +35,7 @@ const Setup = () => {
       category: 'Entrepreneur',
       isFixed: false,
       duration: '01:00',
-      repeatsWeekly: false,
+      repeatFrequency: 'none',
       isProject: false,
     };
     setTasks([...tasks, newTask]);

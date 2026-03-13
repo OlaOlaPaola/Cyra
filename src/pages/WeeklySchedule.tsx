@@ -291,7 +291,7 @@ const WeeklySchedule = () => {
                 <div className={styles.infoCardContent}>
                   <div className={styles.infoCardLabel}>Fase del ciclo</div>
                   <div className={styles.infoCardValue}>
-                    {selectedTask.cyclePhase || selectedTask.phase || 'N/A'}
+                    {selectedTask.cyclePhase || 'N/A'}
                   </div>
                 </div>
               </div>
@@ -308,9 +308,8 @@ const WeeklySchedule = () => {
                      getEnergyType(selectedTask) === 'admin' ? 'Administrativo' :
                      getEnergyType(selectedTask) === 'social' ? 'Social' : 'Descanso'}
                     <span className={styles.energyLevelBadge}>
-                      {selectedTask.energyLevel || 
-                        (getEnergyType(selectedTask) === 'deep-work' ? 'Alta' :
-                         getEnergyType(selectedTask) === 'rest' ? 'Baja' : 'Media')}
+                      {getEnergyType(selectedTask) === 'deep-work' ? 'Alta' :
+                       getEnergyType(selectedTask) === 'rest' ? 'Baja' : 'Media'}
                     </span>
                   </div>
                 </div>
