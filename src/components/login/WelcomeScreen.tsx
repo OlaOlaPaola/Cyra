@@ -86,7 +86,7 @@ const WelcomeScreen = ({ onGetStarted, onAlreadyHaveAccount, onBypass }: Welcome
           <div className={styles.illustrationBg}>
             <div className={styles.plan4herText}>
               <span className={styles.planText}>PLAN</span>
-              <span className={styles.forherText}>CYRA</span>
+              <span className={styles.forherText}>4HER</span>
             </div>
             <div className={styles.decorativeElements}>
               <div className={`${styles.shell} ${styles.shell1}`}></div>
